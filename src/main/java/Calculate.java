@@ -11,11 +11,25 @@ public class Calculate {
     public int add(int a, int b) {
         return a + b;
     }
+    public int mult(int a, int b) {
+        return a * b;
+    }
+    public int div(int a, int b) {
+        return a / b;
 
-    //TODO
-    //add methods for multiply, division, subtraction, square root, x^2
 
-}
+
+    } public double Sqrt(int x) {
+        return Math.sqrt(x);
+
+
+
+    }public int pow(int x) {
+        return (int) Math.pow(x, 2);
+
+
+
+    }}
 
 
 
